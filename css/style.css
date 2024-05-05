@@ -49,7 +49,7 @@ footer {
     flex-direction: row;
 
     padding: 50px;
-
+    margin-top: auto;
     justify-content: space-around;
 
     align-items: center;
