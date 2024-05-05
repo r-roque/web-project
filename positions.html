@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Job Positions</title>
 
     <link rel="stylesheet" href="css/positions.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,44 +19,65 @@
 </head>
 
 <body>
-    <div class="iamge">
-        <div class="bkg-img">
-            <div class="form-button">
-                <a href="forms.html">Apply Here</a>
+    <header>
+        <img src="img/logo.png" alt="logo" height="100px">
+        <div id="nav">
+            <a href="positions.html">Apply</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Reserve</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="image">
+            <div class="bkg-img">
+                <div class="form-button">
+                    <a href="forms.html">Apply Here</a>
+                </div>
             </div>
         </div>
-    </div>
+    
+        <div class="positions">
+            <div class="name-server"><h2>Server</h2></div>
+            <div class="server">
+                <ul>
+                    <li class="server-item"><p>Taking orders</p></li>
+                    <li class="server-item"><p>Delivering food and beverage to the table</p></li>
+                    <li class="server-item"><p>Handling payments</p></li>
+                    <li class="server-item"><p>Cleaning tables</p></li>
+                    <li class="server-item"><p>Providing excellent customer service</p></li>
+                </ul>
+            </div>
+            <div class="name-host"><h2>Host</h2></div>
+            <div class="host">
+                <ul>
+                    <li class="host-item"><p>Greeting guests as they arrive</p></li>
+                    <li class="host-item"><p>Seat guests at available tables</p></li>
+                    <li class="host-item"><p>Answer phone calls</p></li>
+                    <li class="host-item"><p>Manage reservations</p></li>
+                </ul>
+            </div>
+            <div class="name-cook"><h2>Cook</h2></div>
+            <div class="cook">
+                <ul>
+                    <li class="cook-item"><p>Preparing ingredients</p></li>
+                    <li class="cook-item"><p>Cooking food according to the restaurant's recipes</p></li>
+                    <li class="cook-item"><p>Plating dishes</p></li>
+                    <li class="cook-item"><p>Communicating with other cooks and kitchen staff</p></li>
+                </ul>
+            </div>
+        </div>
+    </main>
 
-    <div class="positions">
-        <div class="name-server"><h2>Server</h2></div>
-        <div class="server">
-            <ul>
-                <li class="server-item"><p>Taking orders</p></li>
-                <li class="server-item"><p>Delivering food and beverage to the table</p></li>
-                <li class="server-item"><p>Handling payments</p></li>
-                <li class="server-item"><p>Cleaning tables</p></li>
-                <li class="server-item"><p>Providing excellent customer service</p></li>
-            </ul>
-        </div>
-        <div class="name-host"><h2>Host</h2></div>
-        <div class="host">
-            <ul>
-                <li class="host-item"><p>Greeting guests as they arrive</p></li>
-                <li class="host-item"><p>Seat guests at available tables</p></li>
-                <li class="host-item"><p>Answer phone calls</p></li>
-                <li class="host-item"><p>Manage reservations</p></li>
-            </ul>
-        </div>
-        <div class="name-cook"><h2>Cook</h2></div>
-        <div class="cook">
-            <ul>
-                <li class="cook-item"><p>Preparing ingredients</p></li>
-                <li class="cook-item"><p>Cooking food according to the restaurant's recipes</p></li>
-                <li class="cook-item"><p>Plating dishes</p></li>
-                <li class="cook-item"><p>Communicating with other cooks and kitchen staff</p></li>
-            </ul>
-        </div>
-    </div>
+    <script src="index.js"></script>
+
+    <footer>
+        <p>&copy; Rodrigo's Cheese</p>
+        <a href="#">Resources</a>
+        <a href="#">Language</a>
+        <a href="#">Blog</a>
+        <a href="#">Follow Us</a>
+    </footer>
 </body>
 
 </html>

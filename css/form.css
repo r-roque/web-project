@@ -1,3 +1,46 @@
+head, body {
+    background-color: #000000;
+    color: #E0E0E0;
+}
+
+h1, h2, a {
+    font-family: "Inika", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+    font-family: "Inder", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #774141;
+    justify-content: space-between;
+}
+
+#nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#nav a{
+    color: #B4975A;
+    text-decoration: none;
+    margin-right: 50px;
+    font-weight: 200;
+    font-size: larger;
+}
+
+#nav a:hover{
+    color: #E0E0E0;
+    cursor: pointer;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -6,6 +49,7 @@ main {
 h2 {
     display: flex;
     justify-content: center;
+    color: black;
 }
 
 form {
@@ -42,21 +86,59 @@ input:hover, input:focus {
     outline: 1px solid #774141;
 }
 
-a {
+.submit-button {
     display: flex;
     justify-content: center;
     width: 25%;
     padding: 1em 3em;
     background-color: #B4975A;
-    color: white;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border: none;
     border-radius: 5px;
+}
+
+.submit-button a {
+    color: white;
     text-decoration: none;
 }
 
-a:hover {
+.submit-button:hover {
     background-color: #e5d486;
+}
+
+footer {
+    border-top: 2px solid #774141;
+    position: fixed;
+    background-color: #160E0E;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+    display: flex;
+    flex-direction: row;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    padding-left: 100px;
+    padding-right: 100px;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+}
+
+footer a{
+    color: #E0E0E0;
+    text-decoration: none;
+    font-weight: 400;
+
+}
+
+footer a:hover{
+    cursor: pointer;
+    color: #B4975A;
 }
 
 @media screen and (min-width: 768px) {
@@ -65,5 +147,27 @@ a:hover {
         flex-direction: row;
         padding-left: 50px;
         padding-right: 50px;
+    }
+
+    footer {
+        border-top: 2px solid #774141;
+        position: fixed;
+        background-color: #160E0E;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+    
+        display: flex;
+        flex-direction: row;
+    
+        padding-top: 20px;
+        padding-bottom: 20px;
+    
+        padding-left: 100px;
+        padding-right: 100px;
+    
+        justify-content: space-around;
+    
+        align-items: center;
     }
 }
