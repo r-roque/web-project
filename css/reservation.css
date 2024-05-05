@@ -97,3 +97,104 @@ button {
 button:hover {
     background-color: #846B38;
 }
+footer {
+    border-top: 2px solid #774141;
+    position: fixed;
+    background-color: #160E0E;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+    display: flex;
+    flex-direction: row;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    padding-left: 100px;
+    padding-right: 100px;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+}
+
+footer a{
+    color: #E0E0E0;
+    text-decoration: none;
+    font-weight: 400;
+
+}
+
+footer a:hover{
+    cursor: pointer;
+    color: #B4975A;
+}
+
+@media screen and (min-width: 768px) {
+    .positions {
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: 0.5fr 2fr 2fr 0.5fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .name-server {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .server {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+
+    .name-host {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .host {
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+
+    .name-cook {
+        grid-column: 2/3;
+        grid-row: 3/4;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .cook {
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+
+    footer {
+        border-top: 2px solid #774141;
+        position: fixed;
+        background-color: #160E0E;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+
+        display: flex;
+        flex-direction: row;
+
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        padding-left: 100px;
+        padding-right: 100px;
+
+        justify-content: space-around;
+
+        align-items: center;
+    }
+}
