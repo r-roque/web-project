@@ -1,0 +1,33 @@
+#shoppingCart{
+    display: flex;
+    flex-direction: column;
+}
+
+.shoppingItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.shoppingItem h2{
+    color: #E0E0E0;
+    margin-left: 20px;
+    width: 100px;
+
+}
+.shoppingItem button{
+    width: 20px;
+    height: 20px;
+    line-height: 0px;
+    border-radius: 10px;
+    background-color: #E0E0E0;
+    color: #B4975A;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.shoppingItem img{
+    height: 100px;
+    width: 100px;
+}
