@@ -85,7 +85,7 @@ input[type="email"] {
     color: white;
 }
 
-button {
+.button {
     background-color: #B4975A;
     color: white;
     padding: 10px 20px;
@@ -94,7 +94,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.button:hover {
     background-color: #846B38;
 }
 footer {
