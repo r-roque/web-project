@@ -14,3 +14,64 @@ p {
     font-weight: 400;
     font-style: normal;
 }
+
+header{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #774141;
+    justify-content: space-between;
+}
+
+#nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#nav a{
+    color: #B4975A;
+    text-decoration: none;
+    margin-right: 50px;
+    font-weight: 200;
+    font-size: larger;
+}
+
+#nav a:hover{
+    color: #E0E0E0;
+    cursor: pointer;
+}
+
+footer {
+    border-top: 2px solid #774141;
+    position: fixed;
+    background-color: #160E0E;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+    display: flex;
+    flex-direction: row;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    padding-left: 100px;
+    padding-right: 100px;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+}
+
+footer a{
+    color: #E0E0E0;
+    text-decoration: none;
+    font-weight: 400;
+
+}
+
+footer a:hover{
+    cursor: pointer;
+    color: #B4975A;
+}
