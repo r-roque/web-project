@@ -26,10 +26,14 @@
         <label for="email">Enter your email:</label>
         <input type="email" id="email" name="email">
 
-        <a href="confirmation.html">
-            <button>Submit</button>
-        </a>
+        <button type="submit" href="confirmation.html">Submit</button>
     </form>
+    <script>
+        function handleSubmit() {
+            window.location.href = 'confirmation.html';
+            return false;
+        }
+    </script>
 </div>
     <footer>
   <p>&copy; Rodrigo's Cheese</p>
