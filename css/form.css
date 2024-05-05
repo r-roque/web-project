@@ -1,0 +1,85 @@
+head, body {
+    background-color: #000000;
+}
+
+h1, h2, a {
+    font-family: "Inika", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+    font-family: "Inder", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-box {
+    margin: 10px;
+    flex: 90%;
+    background-color: #E0E0E0;
+}
+
+.form-area {
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #774141;
+}
+
+input {
+    width: 96%;
+    border: 1px solid #160E0E;
+    border-radius: 3px;
+    padding: 1em;
+}
+
+input:hover, input:focus {
+    outline: 1px solid #774141;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    padding: 1em 3em;
+    background-color: #B4975A;
+    color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #e5d486;
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: row;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
