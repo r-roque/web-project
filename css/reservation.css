@@ -106,12 +106,10 @@ input[type="email"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-<<<<<<< Updated upstream
-    text-decoration: none;
-    font-weight: normal;
-=======
-    
->>>>>>> Stashed changes
+    margin-left:20px;
+    width: 100%;
+    box-sizing: border-box
+
 }
 
 .button:hover {
