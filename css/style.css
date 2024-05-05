@@ -1,0 +1,16 @@
+head, body {
+    background-color: #000000;
+    color: #E0E0E0;
+}
+
+h1, h2, a {
+    font-family: "Inika", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+    font-family: "Inder", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
