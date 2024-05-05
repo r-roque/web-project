@@ -93,6 +93,7 @@ input[type="email"] {
     border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
+    font-weight: normal;
 }
 
 .button:hover {
