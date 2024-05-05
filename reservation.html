@@ -29,10 +29,13 @@
         <button type="submit" href="confirmation.html">Submit</button>
     </form>
     <script>
-        function handleSubmit() {
-            window.location.href = 'confirmation.html';
-            return false;
-        }
+        document.getElementById('reservationForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var form = this;
+            setTimeout(function() {
+                window.location.href = 'confirmation.html';
+            }, 1000);
+        });
     </script>
 </div>
     <footer>
