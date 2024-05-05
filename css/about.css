@@ -1,7 +1,5 @@
 * {
-    background-color: #000;
-    margin: 0;
-    color: #E0E0E0
+    margin: 0
 }
 
 h1, h2, h3 {
@@ -53,9 +51,6 @@ h1, h3 {
     grid-column: 2/3;
 }
 
-/* .dheader {
-    border-bottom: #774141 solid 3px;
-} */
 
 .threeoptions {
     display: flex;
@@ -70,20 +65,15 @@ h2, h3 {
     margin-bottom: 60px;
 }
 
-a {
+main a {
     background-color: #b4975a;
     padding: 20px 85px;
     border-radius: .5rem;
 }
 
-a:hover {
+main a:hover {
     background-color: #d0b67e ;
 }
-
-
-
-
-
 
 
 
@@ -142,13 +132,14 @@ background: #d0b67e;
     margin-top: 30px;
 }
 
-a {
+main a {
     text-decoration: none;
     background-color: #b4975a;
     margin-bottom: 50px;
+    color: white;
 }
 
-a :hover {
+main a :hover {
     background-color: #d0b67e;
 }
 
@@ -201,7 +192,7 @@ a :hover {
         padding: 20px 60px;
     }
 
-    a{
+    main a{
         margin-left: -60px
     }
 }

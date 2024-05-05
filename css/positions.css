@@ -115,41 +115,6 @@ header{
         margin: 30px 0 5px 0;
     }
 
-footer {
-    border-top: 2px solid #774141;
-    position: fixed;
-    background-color: #160E0E;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-
-    display: flex;
-    flex-direction: row;
-
-    padding-top: 5px;
-    padding-bottom: 5px;
-
-    padding-left: 100px;
-    padding-right: 100px;
-
-    justify-content: space-around;
-
-    align-items: center;
-
-}
-
-footer a{
-    color: #E0E0E0;
-    text-decoration: none;
-    font-weight: 400;
-
-}
-
-footer a:hover{
-    cursor: pointer;
-    color: #B4975A;
-}
-    
 @media screen and (min-width: 768px) {
     .positions {
         display: grid;
@@ -194,25 +159,5 @@ footer a:hover{
             grid-row: 3/4;
         }
 
-    footer {
-        border-top: 2px solid #774141;
-        position: fixed;
-        background-color: #160E0E;
-        bottom: 0px;
-        left: 0px;
-        right: 0px;
-    
-        display: flex;
-        flex-direction: row;
-    
-        padding-top: 10px;
-        padding-bottom: 10px;
-    
-        padding-left: 100px;
-        padding-right: 100px;
-    
-        justify-content: space-around;
-    
-        align-items: center;
-    }
+
 }  

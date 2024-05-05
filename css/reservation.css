@@ -1,3 +1,13 @@
+* {
+    margin: 0
+}
+
+label {
+    font-family: "Inder", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 head, body {
     background-color: #000000;
     color: #E0E0E0;
@@ -58,10 +68,12 @@ header{
 }
 
 .reservation-form {
+    justify-content: center;
     background-color: #222;
-    padding: 20px;
+    padding: 100px 75px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 75px;
 }
 
 .reservation-form h2 {
@@ -83,6 +95,8 @@ input[type="email"] {
     border-radius: 5px;
     background-color: #555;
     color: white;
+    box-sizing: border-box;
+
 }
 
 .button {
@@ -92,47 +106,18 @@ input[type="email"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+<<<<<<< Updated upstream
     text-decoration: none;
     font-weight: normal;
+=======
+    
+>>>>>>> Stashed changes
 }
 
 .button:hover {
     background-color: #846B38;
 }
-footer {
-    border-top: 2px solid #774141;
-    position: fixed;
-    background-color: #160E0E;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
 
-    display: flex;
-    flex-direction: row;
-
-    padding-top: 5px;
-    padding-bottom: 5px;
-
-    padding-left: 100px;
-    padding-right: 100px;
-
-    justify-content: space-around;
-
-    align-items: center;
-
-}
-
-footer a{
-    color: #E0E0E0;
-    text-decoration: none;
-    font-weight: 400;
-
-}
-
-footer a:hover{
-    cursor: pointer;
-    color: #B4975A;
-}
 
 @media screen and (min-width: 768px) {
     .positions {
@@ -178,25 +163,5 @@ footer a:hover{
         grid-row: 3/4;
     }
 
-    footer {
-        border-top: 2px solid #774141;
-        position: fixed;
-        background-color: #160E0E;
-        bottom: 0px;
-        left: 0px;
-        right: 0px;
 
-        display: flex;
-        flex-direction: row;
-
-        padding-top: 10px;
-        padding-bottom: 10px;
-
-        padding-left: 100px;
-        padding-right: 100px;
-
-        justify-content: space-around;
-
-        align-items: center;
-    }
 }

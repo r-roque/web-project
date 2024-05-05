@@ -3,6 +3,7 @@ head, body {
     color: #E0E0E0;
 }
 
+
 h1, h2, a {
     font-family: "Inika", serif;
     font-weight: 700;
@@ -46,7 +47,8 @@ footer {
     background-color: #160E0E;
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    gap: 35px;
 
     padding: 50px;
     margin-top: auto;
@@ -66,4 +68,10 @@ footer a{
 footer a:hover{
     cursor: pointer;
     color: #B4975A;
+}
+
+@media screen and (min-width: 40em){
+    footer{
+        flex-direction: row;
+    }
 }

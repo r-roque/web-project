@@ -1,4 +1,4 @@
-head, body {
+/* head, body {
     background-color: #000000;
     color: #E0E0E0;
 }
@@ -39,7 +39,7 @@ header{
 #nav a:hover{
     color: #E0E0E0;
     cursor: pointer;
-}
+} */
 
 main {
     display: flex;
@@ -58,15 +58,15 @@ form {
 }
 
 .form-box {
-    margin: 10px;
+    margin: 35px;
     flex: 90%;
-    background-color: #E0E0E0;
+    background-color: #fff;
+    padding-right: 5px;
 }
 
 .form-area {
     padding: 1em;
     border-radius: 5px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 form label {
@@ -106,36 +106,6 @@ input:hover, input:focus {
     background-color: #e5d486;
 }
 
-footer {
-    border-top: 2px solid #774141;
-    background-color: #160E0E;
-
-    display: flex;
-    flex-direction: row;
-
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-    padding-left: 100px;
-    padding-right: 100px;
-
-    justify-content: space-around;
-
-    align-items: center;
-
-}
-
-footer a{
-    color: #E0E0E0;
-    text-decoration: none;
-    font-weight: 400;
-
-}
-
-footer a:hover{
-    cursor: pointer;
-    color: #B4975A;
-}
 
 @media screen and (min-width: 768px) {
     main {
