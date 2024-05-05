@@ -108,11 +108,7 @@ input:hover, input:focus {
 
 footer {
     border-top: 2px solid #774141;
-    position: fixed;
     background-color: #160E0E;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
 
     display: flex;
     flex-direction: row;
@@ -151,11 +147,7 @@ footer a:hover{
 
     footer {
         border-top: 2px solid #774141;
-        position: fixed;
         background-color: #160E0E;
-        bottom: 0px;
-        left: 0px;
-        right: 0px;
     
         display: flex;
         flex-direction: row;
